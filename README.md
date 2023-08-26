@@ -13,3 +13,9 @@ Used NPM-Projects:
 - https
 - body-parser
 - multer
+
+Description:
+https://i.<domain>.de/<ID> -> Shows Image
+https://i.<domain>.de/<ID>/raw -> Shows Raw Image
+https://v.<domain>.de/<ID> -> Shows Video
+https://v.<domain>.de/<ID>/raw -> Shows Raw Video
