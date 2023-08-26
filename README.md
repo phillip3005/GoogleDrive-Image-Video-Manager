@@ -26,3 +26,6 @@ This project allows you to upload and download images and videos with e.g. Share
 - `https://i.<domain>.de/<ID>/raw`: Displays the raw image.
 - `https://v.<domain>.de/<ID>`: Displays the video.
 - `https://v.<domain>.de/<ID>/raw`: Displays the raw video.
+
+## Config
+data/require/config.json
