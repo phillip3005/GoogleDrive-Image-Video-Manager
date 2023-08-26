@@ -20,7 +20,7 @@ To use this tool, you need a Google Cloud Project to access the Google Drive API
 
 ## Description
 
-This project allows you to manage images and videos stored in your Google Drive through the following endpoints:
+This project allows you to upload and download images and videos with e.g. ShareX and store it in your Google Drive.
 
 - `https://i.<domain>.de/<ID>`: Displays the image.
 - `https://i.<domain>.de/<ID>/raw`: Displays the raw image.
