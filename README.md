@@ -26,6 +26,7 @@ Default URL Paths:
 - `https://i.<domain>.de/<Name>/raw`: Displays the raw image.
 - `https://v.<domain>.de/<Name>`: Displays the video with custom video player.
 - `https://v.<domain>.de/<Name>/raw`: Displays the raw video.
+
 _(Uploader URL paths can be configured in the config)_
 
 ## Config
