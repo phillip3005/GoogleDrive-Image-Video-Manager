@@ -1,0 +1,23 @@
+{
+    "cachedFilesAmount": 20,
+    "defaultUploadpath": "./data/default/",
+    "httpsPath": "/etc/letsencrypt/live/<folder>",
+    "fileTypes": [
+        {
+            "subDomain": "v",
+            "folderId": "DRIVE_FOLDER_ID",
+            "folderPath": "./data/videos/",
+            "expressUploadPath": "/<UploadPath>",
+            "identifier": "video",
+            "alternativeEnding": ".mp4"
+        },
+        {
+            "subDomain": "i",
+            "folderId": "DRIVE_FOLDER_ID",
+            "folderPath": "./data/screens/",
+            "expressUploadPath": "/<UploadPath>",
+            "identifier": "image",
+            "alternativeEnding": ".png"
+        }
+    ]
+}
