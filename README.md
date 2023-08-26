@@ -1,21 +1,28 @@
-# GoogleDrive-Image-Video-Manager
-Image and Video Manager using personal Google Drive Storage
+# GoogleDrive Image & Video Manager
 
-Requires google cloud project to acces google drive api
+Manage images and videos using your personal Google Drive storage.
 
-Used NPM-Projects:
-- fs
-- path
-- process
-- @google-cloud/local-auth
-- googleapis
-- express
-- https
-- body-parser
-- multer
+## Prerequisites
 
-Description:
-https://i.<domain>.de/<ID> -> Shows Image
-https://i.<domain>.de/<ID>/raw -> Shows Raw Image
-https://v.<domain>.de/<ID> -> Shows Video
-https://v.<domain>.de/<ID>/raw -> Shows Raw Video
+To use this tool, you need a Google Cloud Project to access the Google Drive API.
+
+## Used NPM Projects
+
+- `fs`
+- `path`
+- `process`
+- `@google-cloud/local-auth`
+- `googleapis`
+- `express`
+- `https`
+- `body-parser`
+- `multer`
+
+## Description
+
+This project allows you to manage images and videos stored in your Google Drive through the following endpoints:
+
+- `https://i.<domain>.de/<ID>`: Displays the image.
+- `https://i.<domain>.de/<ID>/raw`: Displays the raw image.
+- `https://v.<domain>.de/<ID>`: Displays the video.
+- `https://v.<domain>.de/<ID>/raw`: Displays the raw video.
